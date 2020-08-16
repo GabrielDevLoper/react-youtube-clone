@@ -80,42 +80,6 @@ const videos = [
     avatar: "/images/thumbs/avatar.jpg",
     thumb: "/images/thumbs/state.jpg",
   },
-  {
-    id: 9,
-    channel: "Gabriel Santos",
-    title: "CIDADES PEQUENAS",
-    views: "567 mil visualizações",
-    date: "há 6 horas",
-    avatar: "/images/thumbs/avatar.jpg",
-    thumb: "/images/thumbs/cities.jpg",
-  },
-  {
-    id: 10,
-    channel: "Gabriel Santos",
-    title: "CASAS MODESTAS E BONITAS",
-    views: "254 mil visualizações",
-    date: "há 1 semana",
-    avatar: "/images/thumbs/avatar.jpg",
-    thumb: "/images/thumbs/houses.jpg",
-  },
-  {
-    id: 11,
-    channel: "Gabriel Santos",
-    title: "MOTO RÁPIDAS E AS MAIS CARAS DO MUNDO",
-    views: "980 mil visualizações",
-    date: "há 16 minutos",
-    avatar: "/images/thumbs/avatar.jpg",
-    thumb: "/images/thumbs/moto.jpg",
-  },
-  {
-    id: 12,
-    channel: "Gabriel Santos",
-    title: "N.A.S.A DESCOBRE NOVO PLANETA COM ÁGUA",
-    views: "999 mil visualizações",
-    date: "há 5 horas",
-    avatar: "/images/thumbs/avatar.jpg",
-    thumb: "/images/thumbs/planetas.jpg",
-  },
 ];
 
 function Home({ darkMode, setDarkMode }) {
@@ -135,7 +99,7 @@ function Home({ darkMode, setDarkMode }) {
             Recomendados
           </Typography>
 
-          <Grid container spacing={2} className={classes.root}>
+          <Grid container spacing={2}>
             {videos.map((video, index) => (
               <Grid key={video.id} item lg={3} md={4} sm={6} xs={12}>
                 <Box>
