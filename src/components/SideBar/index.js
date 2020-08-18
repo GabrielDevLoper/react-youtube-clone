@@ -29,6 +29,8 @@ import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import HistoryIcon from "@material-ui/icons/History";
 import AvatarIcon from "@material-ui/icons/AccountCircle";
 import AddCircleIcon from "@material-ui/icons/AddCircle";
+
+// Icones usados do youtubes
 import MusicsIcon from "../../assets/Icons-Youtuber/musics.jpg";
 import SportsIcon from "../../assets/Icons-Youtuber/sports.jpg";
 import GamesIcon from "../../assets/Icons-Youtuber/games.jpg";
